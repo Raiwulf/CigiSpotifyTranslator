@@ -16,6 +16,7 @@ Available as both a Tampermonkey script and a Chrome extension.
 - Persistent language selection (saves your preference)
 
 ## Popular Languages
+
 Quick access to:
 - English
 - Turkish
@@ -29,6 +30,8 @@ Quick access to:
 - Dutch
 
 Plus 90+ additional languages available through search.
+
+# Script
 
 ## Prerequisites
 
@@ -51,9 +54,30 @@ This script requires the Tampermonkey browser extension:
 4. Copy the entire contents of `script.js` into the editor
 5. Press Ctrl+S or click File > Save to install the script
 
-### 2. Chrome Extension
+## Usage
 
-#### Option A: Direct Installation
+1. Open [Spotify Web Player](https://open.spotify.com)
+2. Play any song with lyrics
+3. Select your desired translation language from the dropdown
+   - Use the search box to quickly find any language
+   - Popular languages are always shown at the top
+4. Click "Translate" or wait for automatic translation
+5. Translated lyrics will appear below each line in gray italic text
+
+## How It Works
+
+The script:
+1. Injects a control panel at the top of the lyrics view
+2. Provides a searchable language selector with popular languages prioritized
+3. Detects when lyrics are displayed
+4. Uses Google Translate API to translate each line
+5. Displays translations while maintaining the original lyrics
+
+# Chrome Extension
+
+## Installation
+
+### Option A: Direct Installation
 1. Clone this repository
 2. Go to `chrome://extensions/` in Chrome
 3. Enable "Developer mode" (toggle in top right)
@@ -77,20 +101,20 @@ Note: Using this method, users will need to:
 
 ## How It Works
 
-The script:
+The extension:
 1. Injects a control panel at the top of the lyrics view
 2. Provides a searchable language selector with popular languages prioritized
 3. Detects when lyrics are displayed
 4. Uses Google Translate API to translate each line
 5. Displays translations while maintaining the original lyrics
 
-## Notes
+# Notes
 
 - Works only with Spotify Web Player (not the desktop app)
 - Requires an active internet connection for translations
 - Translation quality depends on Google Translate's accuracy
 - Some lyrics might not translate perfectly due to artistic or colloquial language
 
-## License
+# License
 
 MIT License - feel free to modify and share!
