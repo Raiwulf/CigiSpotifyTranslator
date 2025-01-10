@@ -35,7 +35,13 @@ This script requires the Tampermonkey browser extension:
 
 ## Installation
 
+### Option 1: Direct Installation (Recommended)
 1. Install Tampermonkey for your browser using one of the links above
+2. [Click here to install the script](https://update.greasyfork.org/scripts/523415/Cigi%20Spotify%20Translator.user.js)
+3. Click "Install" in the Tampermonkey window that opens
+
+### Option 2: Manual Installation
+1. Install Tampermonkey for your browser
 2. Click on the Tampermonkey icon in your browser
 3. Select "Create a new script"
 4. Copy the entire contents of `script.js` into the editor
