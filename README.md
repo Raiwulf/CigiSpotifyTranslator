@@ -2,6 +2,10 @@
 
 A Tampermonkey script that adds real-time lyrics translation functionality to Spotify Web Player.
 
+## View
+
+![image](https://github.com/user-attachments/assets/0ab755a4-26a3-49a3-9080-bf38b85ad5f1)
+
 ## Features
 
 - Translates lyrics in real-time while you listen to music
@@ -75,4 +79,4 @@ The script:
 
 ## License
 
-MIT License - feel free to modify and share! 
+MIT License - feel free to modify and share!
