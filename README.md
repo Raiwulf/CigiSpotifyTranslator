@@ -31,6 +31,41 @@ Quick access to:
 
 Plus 90+ additional languages available through search.
 
+# Chrome Extension
+
+## Installation
+
+### Option A: Direct Installation
+1. Clone this repository
+2. Go to `chrome://extensions/` in Chrome
+3. Enable "Developer mode" (toggle in top right)
+4. Click "Load unpacked"
+5. Select the `extension` folder
+
+Note: Using this method, users will need to:
+- Enable developer mode in Chrome
+- May need to reinstall after Chrome restarts
+- Won't receive automatic updates
+
+## Usage
+
+1. Open [Spotify Web Player](https://open.spotify.com)
+2. Play any song with lyrics
+3. Select your desired translation language from the dropdown
+   - Use the search box to quickly find any language
+   - Popular languages are always shown at the top
+4. Click "Translate" or wait for automatic translation
+5. Translated lyrics will appear below each line in gray italic text
+
+## How It Works
+
+The extension:
+1. Injects a control panel at the top of the lyrics view
+2. Provides a searchable language selector with popular languages prioritized
+3. Detects when lyrics are displayed
+4. Uses Google Translate API to translate each line
+5. Displays translations while maintaining the original lyrics
+
 # Script
 
 ## Prerequisites
@@ -67,41 +102,6 @@ This script requires the Tampermonkey browser extension:
 ## How It Works
 
 The script:
-1. Injects a control panel at the top of the lyrics view
-2. Provides a searchable language selector with popular languages prioritized
-3. Detects when lyrics are displayed
-4. Uses Google Translate API to translate each line
-5. Displays translations while maintaining the original lyrics
-
-# Chrome Extension
-
-## Installation
-
-### Option A: Direct Installation
-1. Clone this repository
-2. Go to `chrome://extensions/` in Chrome
-3. Enable "Developer mode" (toggle in top right)
-4. Click "Load unpacked"
-5. Select the `extension` folder
-
-Note: Using this method, users will need to:
-- Enable developer mode in Chrome
-- May need to reinstall after Chrome restarts
-- Won't receive automatic updates
-
-## Usage
-
-1. Open [Spotify Web Player](https://open.spotify.com)
-2. Play any song with lyrics
-3. Select your desired translation language from the dropdown
-   - Use the search box to quickly find any language
-   - Popular languages are always shown at the top
-4. Click "Translate" or wait for automatic translation
-5. Translated lyrics will appear below each line in gray italic text
-
-## How It Works
-
-The extension:
 1. Injects a control panel at the top of the lyrics view
 2. Provides a searchable language selector with popular languages prioritized
 3. Detects when lyrics are displayed
