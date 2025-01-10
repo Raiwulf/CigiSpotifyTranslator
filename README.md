@@ -35,7 +35,12 @@ Plus 90+ additional languages available through search.
 
 ## Installation
 
-### Option A: Direct Installation
+### Option 1: Direct Installation
+1. Download the `extension.crx` file from the repository
+2. Go to `chrome://extensions/` in Chrome
+3. Drag and drop the `extension.crx` file into the Chrome extensions page
+
+### Option 2: Manual Installation
 1. Clone this repository
 2. Go to `chrome://extensions/` in Chrome
 3. Enable "Developer mode" (toggle in top right)
