@@ -1,6 +1,6 @@
 # Cigi Spotify Translator
 
-A Tampermonkey script that adds real-time lyrics translation functionality to Spotify Web Player.
+Available as both a Tampermonkey script and a Chrome extension.
 
 ## View
 
@@ -50,6 +50,25 @@ This script requires the Tampermonkey browser extension:
 3. Select "Create a new script"
 4. Copy the entire contents of `script.js` into the editor
 5. Press Ctrl+S or click File > Save to install the script
+
+### 2. Chrome Extension
+
+#### Option A: Direct Installation (Free)
+1. Download the extension:
+   - [Download from GitHub Releases] OR
+   - Clone this repository
+2. Go to `chrome://extensions/` in Chrome
+3. Enable "Developer mode" (toggle in top right)
+4. Click "Load unpacked"
+5. Select the `extension` folder
+
+Note: Using this method, users will need to:
+- Enable developer mode in Chrome
+- May need to reinstall after Chrome restarts
+- Won't receive automatic updates
+
+#### Option B: Chrome Web Store (Paid)
+[Chrome Web Store installation instructions when available]
 
 ## Usage
 
